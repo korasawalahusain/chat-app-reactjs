@@ -1,0 +1,22 @@
+{
+	"name": "chat-app-backend",
+	"version": "1.0.0",
+	"main": "app.js",
+	"scripts": {
+		"dev": "nodemon app.js"
+	},
+	"author": "Husain Korasawala",
+	"license": "ISC",
+	"dependencies": {
+		"@prisma/client": "^4.4.0",
+		"bcrypt": "^5.0.1",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.0",
+		"express": "^4.17.2",
+		"socket.io": "^4.4.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15",
+		"prisma": "^4.4.0"
+	}
+}
